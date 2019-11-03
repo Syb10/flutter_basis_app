@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_basis_app/screens/HavaneserScreen.dart';
 import 'package:flutter_basis_app/screens/beagle_screen.dart';
+import 'package:flutter_basis_app/screens/husky_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -22,8 +23,9 @@ class _HomeScreenState extends State<HomeScreen> {
       body: Center(
         child: Column(
           children: <Widget>[
-            buildRaisedHunderasseButton(context, "Havaneser", HavaneserScreen()),
             buildRaisedHunderasseButton(context, "Beagle", BeagleScreen()),
+            buildRaisedHunderasseButton(context, "Havaneser", HavaneserScreen()),
+            buildRaisedHunderasseButton(context, "Husky", HushyScreen()),
 
 
           ],
